@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "react-hook-form": "^7.31.1"
+  },
+  "scripts": {
+    "start-app": "npm run-script build && (cd server && npm start) && (cd client && npm start)"
   }
 }
